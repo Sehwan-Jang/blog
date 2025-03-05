@@ -3,11 +3,11 @@ const CONFIG = {
   profile: {
     name: "sehwan Jang",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "backend developer",
-    bio: "I develop everything using node.",
+    role: "백엔드 개발자",
+    bio: "화이팅",
     email: "whilter08@gmail.com",
     linkedin: "",
-    github: "Sehwan Jang",
+    github: "Sehwan-Jang",
     instagram: "",
   },
   projects: [
@@ -69,7 +69,7 @@ const CONFIG = {
     },
   },
   isProd: process.env.VERCEL_ENV === "production", // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  revalidateTime: 21600 * 7, // revalidate time for [slug], index
+  revalidateTime: 10, // revalidate time for [slug], index
 }
 
 module.exports = { CONFIG }
